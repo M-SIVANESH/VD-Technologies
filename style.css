@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    padding-bottom: 15px;
+}
+
+.brand-img {
+    border-radius: 50%;
+}
+
+/* HOME */
+
+.home-section {
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffff;
+    padding: 100px;
+}
+
+.home-btn {
+    margin-top: 20px;
+}
+
+.service-img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    opacity: 0.8;
+}
+
+/* ABOUT */
+
+.about-head {
+    background-image: url(assets/n.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffff;
+    padding: 60px 0 180px 0;
+}
+
+.about-description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.team-content {
+    padding-top: 50px;
+    line-height: 1.5;
+}
+
+.team-img-div {
+    margin-left: 50px;
+}
+
+.vmission {
+    margin-top: 50px;
+}
+
+.history-div {
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+@media (max-width: 768px) {
+    .about-description {
+        display: block;
+    }
+
+    .team-img-div {
+        margin-left: 0;
+    }
+
+    img .team-img {
+        width: 200px;
+    }
+
+    .history-div {
+        justify-content: center;
+    }
+}
+
+/* CONTACT */
+
+.contact-section {
+    display: flex;
+}
+
+.contact-form {
+    margin: 100px 0 0 100px;
+}
+
+@media (max-width: 768px) {
+    .contact-section {
+        display: block;
+    }
+
+    .contact-form {
+        margin: 100px 0 0 0;
+        text-align: center;
+    }
+
+    .fName {
+        padding-bottom: 25px;
+    }
+}
+
+/* FOOTER */
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-list {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.foot-list-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: blue;
+}
